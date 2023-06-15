@@ -1,9 +1,9 @@
 /**
- * main: Main function
+ * main - Entry point
  *
- * Description: a C program that prints exactly "Programming is like building a multilingual puzzle"
+ * Description: Prints "Programming is like building a multilingual puzzle" to standard output
  *
- * return 0 
+ * Returns: 0 (Success)
  */
 int main(void) {
   puts("Programming is like building a multilingual puzzle\n");
