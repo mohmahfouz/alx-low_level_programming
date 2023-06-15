@@ -3,7 +3,7 @@
 /**
  * Main - entry point
  *
- * Description - a C program that prints the size of various types on the computer
+ * Description - a C program that prints the size of various types
  *
  * Return: 0
  */
