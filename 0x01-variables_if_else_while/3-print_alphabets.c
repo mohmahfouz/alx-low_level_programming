@@ -16,7 +16,6 @@ while (chr <= 'z')
 putchar(chr);
 chr++;
 }
-putchar('\n');
 chr = 'A';
 while (chr <= 'Z')
 {
