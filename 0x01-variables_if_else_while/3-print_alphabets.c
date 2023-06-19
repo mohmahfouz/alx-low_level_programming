@@ -23,7 +23,6 @@ while (chr <= 'Z')
 putchar(chr);
 chr++;
 }
-putchar('\n');
 return (0);
 }
 
