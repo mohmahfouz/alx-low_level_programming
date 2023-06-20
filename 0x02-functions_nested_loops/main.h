@@ -1,5 +1,3 @@
-int _putchar(char c);
-
 #include <unistd.h>
 
 /**
