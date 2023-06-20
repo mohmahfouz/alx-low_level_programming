@@ -1,10 +1,11 @@
-/*
+#include <stdio.h>
+
+/**
  * main - Main function
- * Description:  prints all single digit numbers of
+ * Description: prints all single digit numbers of
  * base 10 starting from 0, followed by a new line.
  * Return: 0
  */
-#include <stdio.h>
 
 int main(void)
 {
