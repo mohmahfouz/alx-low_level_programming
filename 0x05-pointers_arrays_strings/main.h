@@ -5,3 +5,4 @@ char *_strcpy(char *destination, char *source);
 void print_array(int *a, int n);
 void _puts(char *str);
 int _putchar(char);
+void print_rev(char *s);
