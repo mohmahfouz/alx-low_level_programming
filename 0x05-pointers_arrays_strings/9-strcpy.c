@@ -2,7 +2,7 @@
 
 /**
  * _strcpy - copies source to destination
- * @sourc: source
+ * @source: source
  * @destination: destination
  *
  * Return: pointer to dest
