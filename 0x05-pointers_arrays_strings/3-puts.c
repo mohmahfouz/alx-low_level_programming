@@ -2,7 +2,7 @@
 
 /**
 * _puts - prints str with newline
-* @str: string 
+* @str: string
 * Return: nothing
 */
 
