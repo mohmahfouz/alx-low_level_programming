@@ -8,4 +8,4 @@ int _putchar(char);
 void print_rev(char *s);
 void rev_string(char *s);
 void _puts(char *str);
-
+void puts_half(char *str);
