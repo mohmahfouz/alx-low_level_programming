@@ -18,11 +18,12 @@ int main() {
 
   /* Create a list of valid characters. */
   char valid_characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  int len = strlen(valid_characters);
 
   /* Generate a random password of length 5. */
   char password[5];
   for (int i = 0; i < 5; i++) {
-    password[i] = valid_characters[rand() % (sizeof(valid_characters) - 1)];
+    password[i] = valid_characters[rand() % len];
   }
 
   /* Print the random password. */
