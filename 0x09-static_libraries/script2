@@ -1,0 +1,21 @@
+#!/bin/bash
+mv _isupper.c 0-isupper.c
+mv _memset.c 0-memset.c
+mv _strcat.c 0-strcat.c
+mv _isdigit.c 1-isdigit.c
+mv _memcpy.c 1-memcpy.c
+mv _strncat.c 1-strncat.c
+mv _atoi.c 100-atoi.c
+mv _strchr.c 2-strchr.c
+mv _strlen.c 2-strlen.c
+mv _strncpy.c 2-strncpy.c
+mv _islower.c 3-islower.c
+mv _puts.c 3-puts.c
+mv _strcmp.c 3-strcmp.c
+mv _strspn.c 3-strspn.c
+mv _isalpha.c 4-isalpha.c
+mv _strpbrk.c 4-strpbrk.c
+mv _strstr.c 5-strstr.c
+mv _abs.c 6-abs.c
+mv _strcpy.c 9-strcpy.c
+mv _putchar.c _putchar.c
