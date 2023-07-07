@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * main - prints minimum number of coins to make change 
+ * main - prints minimum number of coins to make change
  * @argc: count
  * @argv:  vector
  * Return: 1 if not exactly 1,
