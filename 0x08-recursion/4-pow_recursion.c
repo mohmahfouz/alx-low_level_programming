@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - x raised to the power of y.
- * @x: The number 
+ * @x: The number
  * @y: The power
  *
  * Return: x^y
