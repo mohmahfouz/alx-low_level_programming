@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define LARGEST 10000000000
 /**
-* main - main 
+* main - main
 * Description: Find and print the first 98 fib
 * Return: 0
 */
