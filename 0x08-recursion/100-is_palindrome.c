@@ -12,7 +12,7 @@ else
 return (1 + _strlen_recursion(s + 1));
 }
 /**
-* comparator - compares character 
+* comparator - compares character
 * @s: string
 * @n1: iterator 1
 * @n2: iterator 2
