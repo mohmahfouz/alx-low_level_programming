@@ -20,7 +20,7 @@ return (find_sqrt(num, root + 1));
 }
 
 /**
- * _sqrt_recursion - Returns square root 
+ * _sqrt_recursion - Returns square root
  * @n: The number
  *
  * Return: square root if applicable
