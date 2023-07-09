@@ -16,7 +16,7 @@ return (1 + _strlen_recursion(s + 1));
 * @s: string
 * @n1: iterator 1
 * @n2: iterator 2
-* Return:
+* Return:1 if same
 */
 int comparator(char *s, int n1, int n2)
 {
