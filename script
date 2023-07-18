@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for function in putchar islower isalpha abs isupper isdigit strlen puts strcpy atoi strcat strncat strncpy strcmp memset memcpy strchr strspn strpbrk strstr; do
+  echo "Creating function C file for $function..."
+  cat <<EOF > 0-$function.c
+#include "main.h"
+
+int _$function(void) {
+  return (0);
+}
+EOF
+done
