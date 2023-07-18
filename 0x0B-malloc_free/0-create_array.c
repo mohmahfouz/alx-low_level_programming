@@ -4,7 +4,7 @@
 /**
  * *create_array - create array
  * @size: size of the array
- * @c: initialize the array 
+ * @c: initialize the array
 
  */
 char *create_array(unsigned int size, char c)
