@@ -1,7 +1,7 @@
 #include "dog.h"
 
 /**
- * init_dog - init 
+ * init_dog - init
  * @d: dog id
  * @name: name
  * @age: age
