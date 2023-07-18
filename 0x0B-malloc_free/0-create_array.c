@@ -5,7 +5,7 @@
  * *create_array - create array
  * @size: size of the array
  * @c: initialize the array
- * @Return: return
+ * Return: return
  */
 char *create_array(unsigned int size, char c)
 {
