@@ -1,15 +1,16 @@
 #include "3-calc.h"
-#include <string.h>
 
 /**
-* get_op_func - selects the correct
-* @s: operator.
-*
-* Return: pointer
+* get_op_func - Retrieves function
+* @s: pointer
+* Return: Pointer
 */
+
 int (*get_op_func(char *s))(int, int)
 {
+
 op_t ops[] = {
+
 {"+", op_add},
 {"-", op_sub},
 {"*", op_mul},
@@ -17,12 +18,23 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
+
+
 int i = 0;
-while (i < 10)
+
+
+
+/* while 1< 4, s and s[0] (args) == pos. in struct.s[1] is empt =? true */
+
+while (i <= 4)
 {
-if (s[0] == ops->op[i])
-	break;
+
+if (s && s[0] == ops[i].op[0] && !s[1])
+{
+return (ops[i].f);
+}
+
 i++;
 }
-return (ops[i / 2].f);
+return (NULL);
 }
