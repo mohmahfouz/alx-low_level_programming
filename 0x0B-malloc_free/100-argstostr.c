@@ -41,7 +41,11 @@ return (new_string);
 int len(char *str)
 {
 int len = 0;
-
+/**
+*len - length
+*@str: string
+*Return: length
+*/
 if (str != NULL)
 {
 while (str[len])
