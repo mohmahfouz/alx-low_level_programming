@@ -1,36 +1,45 @@
-#include "holberton.h"
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 
 /**
-* str_concat - concatenate
+* str_concat - concat
 * @s1: string
-* @s2: string
-* Return: nothing
+* @s2: string 2
+*
+* Description: concatenate
+* Return: result
 */
+
 char *str_concat(char *s1, char *s2)
 {
-char *s;
-int a, b, c, d;
+char *ptr;
+int i = 0;
+int j = 0;
 
-if (s1 == 0)
+if (s1 == NULL)
 s1 = "";
-if (s2 == 0)
+if (s2 == NULL)
 s2 = "";
-for (a = 0; s1[a] != '\0'; a++)
-;
-for (b = 0; s2[b] != '\0'; b++)
-;
-b++;
-s = malloc(a * sizeof(*s1) + b * sizeof(*s2));
-if (s == 0)
+while (s1[i])
+i++;
+while (s2[j])
+j++;
+ptr = malloc(1 + (sizeof(char) * i) + (sizeof(char) * j));
+if (ptr == NULL)
 return (NULL);
-for (c = 0, d = 0; c < a + b; c++)
+i = 0;
+while (s1[i])
 {
-if (c < a)
-s[c] = s1[c];
-else
-s[c] = s2[d++];
+ptr[i] = s1[i];
+i++;
 }
-return (s);
+j = 0;
+while (s2[j])
+{
+ptr[i] = s2[j];
+i++;
+j++;
+}
+ptr[i] = s2[j];
+return (ptr);
 }
